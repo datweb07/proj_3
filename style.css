@@ -1,7 +1,17 @@
+body {
+  background-image: url(./img/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 h1 {
-  color: hotpink;
+  color: white;
   text-align: center;
 }
 p {
-  color: green;
+  color: lightyellow;
+}
+h2{
+  color: black;
 }
