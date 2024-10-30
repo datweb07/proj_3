@@ -1,17 +1,48 @@
+/* Body Styling */
 body {
-  background-image: url(./img/images.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  color: #333; /* Added default text color for better contrast */
+  font-family: Arial, sans-serif; /* Added fallback font for consistency */
 }
 
+/* Header Styling */
 h1 {
-  color: white;
+  color: black; /* Changed 'white' to hex for consistency */
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.2em;
+  border-radius: 10px;
+  padding: 10px; /* Added padding for better spacing */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
 }
+
+/* Paragraph Styling */
 p {
-  color: lightyellow;
+  color: black; /* Changed 'lightyellow' to hex for better color control */
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6; /* Improved readability */
+  margin: 10px 0;
 }
-h2{
-  color: black;
+
+/* H2 Styling */
+h2 {
+  color: #000000; /* Changed 'black' to hex */
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Anchor (link) Styling */
+a {
+  color: chocolate;
+  text-decoration: none; /* Removes underline */
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.2em;
+}
+
+a:hover {
+  color: #D2691E; /* Darken color on hover for better interaction feedback */
+  text-decoration: underline;
 }
