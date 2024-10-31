@@ -1,48 +1,42 @@
-/* Body Styling */
 body {
-  
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #333; /* Added default text color for better contrast */
-  font-family: Arial, sans-serif; /* Added fallback font for consistency */
+  color: #333;
+  font-family: Arial, sans-serif;
 }
 
-/* Header Styling */
 h1 {
-  color: black; /* Changed 'white' to hex for consistency */
+  color: black;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   letter-spacing: 0.2em;
   border-radius: 10px;
-  padding: 10px; /* Added padding for better spacing */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Paragraph Styling */
 p {
-  color: black; /* Changed 'lightyellow' to hex for better color control */
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 1.6; /* Improved readability */
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
   margin: 10px 0;
 }
 
-/* H2 Styling */
 h2 {
-  color: #000000; /* Changed 'black' to hex */
+  color: #000000;
   font-weight: bold;
   margin-top: 20px;
 }
 
-/* Anchor (link) Styling */
 a {
   color: chocolate;
-  text-decoration: none; /* Removes underline */
-  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 0.2em;
 }
 
 a:hover {
-  color: #D2691E; /* Darken color on hover for better interaction feedback */
+  color: #d2691e;
   text-decoration: underline;
 }
