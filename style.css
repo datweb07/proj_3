@@ -4,7 +4,6 @@ body {
   background-attachment: fixed;
   color: #333;
   font-family: "Quicksand", sans-serif;
-
 }
 
 h1 {
@@ -40,4 +39,13 @@ a {
 a:hover {
   color: #d2691e;
   text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
